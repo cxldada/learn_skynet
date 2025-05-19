@@ -1,0 +1,322 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_main.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_main.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_handle.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_handle.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_module.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_module.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_mq.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_mq.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_server.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_server.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_start.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_start.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_timer.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_timer.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_error.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_error.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_harbor.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_harbor.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_env.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_env.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_monitor.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_monitor.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_socket.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_socket.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/socket_server.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/socket_server.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/malloc_hook.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/malloc_hook.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_daemon.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_daemon.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-I3rd/lua",
+      "3rd/lua/liblua.a",
+      "3rd/jemalloc/lib/libjemalloc_pic.a",
+      "-Iskynet-src",
+      "-I3rd/jemalloc/include/jemalloc",
+      "-o",
+      "skynet",
+      "skynet-src/skynet_log.c"
+    ],
+    "directory": "/data/home/arthurcchen/temp/learn_skynet",
+    "file": "/data/home/arthurcchen/temp/learn_skynet/skynet-src/skynet_log.c",
+    "output": "/data/home/arthurcchen/temp/learn_skynet/skynet"
+  }
+]
