@@ -4,13 +4,13 @@ local function getenv(name)
   return assert(os.getenv(name), [[os.getenv() failed: ]] .. name)
 end
 
-local sep = package.config:sub(1,1)
-local current_path = [[.]]..sep
+local sep = package.config:sub(1, 1)
+local current_path = [[.]] .. sep
 local function include(filename)
   local last_path = current_path
-  local path, name = filename:match([[(.*]]..sep..[[)(.*)$]])
+  local path, name = filename:match([[(.*]] .. sep .. [[)(.*)$]])
   if path then
-    if path:sub(1,1) == sep then	-- root
+    if path:sub(1, 1) == sep then -- root
       current_path = path
     else
       current_path = current_path .. path
@@ -19,10 +19,11 @@ local function include(filename)
     name = filename
   end
   local f = assert(io.open(current_path .. name))
-  local code = assert(f:read [[*a]])
+  local code = assert(f:read([[*a]]))
   code = string.gsub(code, [[%$([%w_%d]+)]], getenv)
   f:close()
-  assert(load(code,[[@]]..filename,[[t]],result))()
+  print([[@]] .. filename)
+  assert(load(code, [[@]] .. filename, [[t]], result))()
   current_path = last_path
 end
 
@@ -31,4 +32,3 @@ local config_name = ...
 include(config_name)
 setmetatable(result, nil)
 return result
-

@@ -1,25 +1,24 @@
-bag = {
-}
-bagmt = {
-  put = function (b, item)
+CBag = {}
+CBagMT = {
+  put = function(b, item)
     table.insert(b.items, item)
   end,
-  log = function (b)
-    print(pair(b.items))
-  end
-
+  log = function(b)
+    for k, v in pairs(b.items) do
+      print(k, v)
+    end
+  end,
 }
+CBagMT["__index"] = CBagMT
 
-bagmt["__index"] = bagmt
-function bag.new()
-  local t = {
-    items = {}
+function CBag.new()
+  local bag = {
+    items = {},
   }
-  setmetatable(t, bagmt)
-  return t;
+  setmetatable(bag, CBagMT)
+  return bag
 end
 
-local b = bag.new()
-b:put("apple")
-b:log()
-
+local bag = CBag.new()
+bag:put("apple")
+bag:log()
