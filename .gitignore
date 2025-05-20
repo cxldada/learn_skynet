@@ -11,4 +11,5 @@
 *.dSYM
 .DS_Store
 .vscode
-.cache
+**/.cache/
+build/
