@@ -13,3 +13,4 @@
 .vscode
 **/.cache/
 build/
+a.out
